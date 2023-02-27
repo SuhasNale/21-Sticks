@@ -42,7 +42,7 @@ class _SticksGameState extends State<SticksGame> {
       compPicked = sticks;
       isEnabled = true;
       if (sticks == 1) {
-        result = 'User Looses the game as only 1 Stick left';
+        result = 'User Looses the game as only 1 Stick is left';
         isEnabled = true;
         gameOver = true;
       }
